@@ -2,23 +2,41 @@
     box-sizing: border-box;
 }
 
+html {
+    font-family: sans-serif;
+}
+
+main {
+    margin-bottom: 135px;
+    margin-top: 115px;
+}
+
 header {
-    display: flex;
-    position: fixed;
-    height: 150px;
-    top: 0;
-    left: 0;
-    right: 0;
     background: gray;
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    justify-content: center;
+    left: 0;
+    min-width: 960px;
+    padding: 15px;
+    position: fixed;
+    right: 0;
+    top: 0;
 }
 
 .logo {
-    float: left;
+    align-self: flex-start;
+    height: 70px;
+    width: 200px;
 }
 
 nav {
+    align-self: center;
+    color: lightgrey;
     justify-content: space-evenly;
-
+    padding: 15px;
+    width: 760px;
 }
 
 nav a {
@@ -27,27 +45,72 @@ nav a {
     text-align: center;
 }
 
-main {
+#first {
     display: flex;
-    align-content: center;
+    flex-direction: row;
+    justify-content: center;
 }
 
-section .hero {
-    height: 450px;
+.hero {
+    min-height: 70px;
+    min-width: 200px;
+    padding: 15px;
 }
 
-section .sub-banner{
+#second {
     display: flex;
+    flex-basis: 300px;
+    flex-direction: row;
+    justify-content: center;
 }
 
-section .featured {
+.sub-banner {
+    justify-content: space-evenly;
+    min-height: 375px;
+    min-width: 300px;
+    padding: 15px;
+}
+
+#third {
     display: flex;
+    flex-basis: 480px;
+    flex-direction: row;
+    justify-content: center;
+    padding: 15px;
 }
 
-/* button {
+.featured {
+    height: 400px;
+    width: 480px;
+}
 
+.content {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    margin-left: 30px;
+    width: 450px;
+}
+
+button {
+    align-items: flex-end;
+    align-self: flex-start;
+    background-color: black;
+    color: white;
+    float: left;
+    height: 40px;
+    width: 120px;
+}
+
+#text {
+    overflow: scroll;
 }
 
 footer {
-
-} */
+    background: gray;
+    bottom: 0;
+    height: 120px;
+    left: 0;
+    position: fixed;
+    right: 0;
+}
