@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    position: fixed;
+    height: 150px;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: gray;
+}
+
+.logo {
+    float: left;
+}
+
+nav {
+    justify-content: space-evenly;
+
+}
+
+nav a {
+    justify-content: space-between;
+    padding: 2rem;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    align-content: center;
+}
+
+section .hero {
+    height: 450px;
+}
+
+section .sub-banner{
+    display: flex;
+}
+
+section .featured {
+    display: flex;
+}
+
+/* button {
+
+}
+
+footer {
+
+} */
