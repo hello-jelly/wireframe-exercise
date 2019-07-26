@@ -92,18 +92,30 @@ nav a {
     width: 450px;
 }
 
+h2 {
+    font-size: 1.5rem;
+    font-weight: 25%;
+    margin-bottom: 10px;
+}
+
 button {
     align-items: flex-end;
-    align-self: flex-start;
     background-color: black;
     color: white;
     float: left;
     height: 40px;
     width: 120px;
+    font-size: 1rem;
+    margin-top: 10px;
 }
 
 #text {
     overflow: scroll;
+    line-height: 1.25rem;
+}
+
+p {
+    margin-top: 10px;
 }
 
 footer {
